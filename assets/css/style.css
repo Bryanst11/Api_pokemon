@@ -1,0 +1,15 @@
+.bgColor{
+    background: #2f3968;
+}
+
+@media (max-width : 1000px){
+    #cartas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        width: 100px;
+    }
+}
